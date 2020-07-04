@@ -1,0 +1,32 @@
+.cursor {
+    &-pointer {
+        cursor: pointer;
+    }
+}
+
+.no-select {
+    user-select: none;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    .icon {
+
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        border-radius: 100%;
+        position: relative;
+        background: lightgray;
+    }
+
+    .name {
+        font-size: 10px;
+        font-weight: bold;
+        color: red;
+        margin-right: 12px;
+    }
+}

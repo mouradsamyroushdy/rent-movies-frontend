@@ -1,0 +1,4 @@
+{
+    "baseApiUrl": "http://localhost:3900/api/",
+    "headerTokenKey": "x-auth-token"
+}
